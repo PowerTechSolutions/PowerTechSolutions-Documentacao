@@ -19,7 +19,7 @@ O script atualizará o sistema, instalará a interface gráfica LXDE, o servidor
 No seu computador local, pesquise por "RDP" e cole o Endereço IPv4. Faça login e abra o terminal na Área de Trabalho Remota e execute:
 bash parte2NL.sh
 
-A Assistente NocLine irá orientá-lo na segunda parte da configuração.
+A Assistente PowerTech irá orientá-lo na segunda parte da configuração.
 
 **Passo 3: Parte 2 - Configuração Avançada**
 
