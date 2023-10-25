@@ -12,12 +12,12 @@ Antes de começar, verifique se você tem sua chave privada e acesse a pasta que
 
 Execute a primeira parte do script com o seguinte comando:
 
-bash parte1NL.sh
+bash scriptInstalacao.sh
 
 O script atualizará o sistema, instalará a interface gráfica LXDE, o servidor xrdp e a ferramenta nmon para monitoramento de desempenho. Após a conclusão bem-sucedida, copie o Endereço IPv4 público da página de instâncias da AWS.
 
 No seu computador local, pesquise por "RDP" e cole o Endereço IPv4. Faça login e abra o terminal na Área de Trabalho Remota e execute:
-bash parte2NL.sh
+bash scriptInstalacaoV2.sh
 
 A Assistente PowerTech irá orientá-lo na segunda parte da configuração.
 
