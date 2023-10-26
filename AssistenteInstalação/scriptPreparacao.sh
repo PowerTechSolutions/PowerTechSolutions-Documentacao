@@ -6,6 +6,8 @@ sleep 5
 echo “[Assistente PowerTech]: Preparando a clonação da pasta...”
 sleep 5
 
+git clone 
+
 cd PowerTechSolutions-Documentacao
 sleep 5
 
