@@ -15,7 +15,7 @@ cd PowerTechSolutions-Documentacao
 sleep 5
 
 echo "[Assistente PowerTech]: Começando a primeira passo!"
-cd AssistenteIntalação
+cd AssistenteInstalação
 sleep 5
 
 bash scriptInstalacao.sh
