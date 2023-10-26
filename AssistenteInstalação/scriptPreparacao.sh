@@ -6,12 +6,12 @@ sleep 5
 echo “[Assistente PowerTech]: Preparando a clonação da pasta...”
 sleep 5
 
-git clone 
+git clone https://github.com/PowerTechSolutions/PowerTechSolutions-Documentacao.git
 
-cd PowerTechSolutions-Documentacao
+echo “[Assistente PowerTech]: Clonação com sucesso! Agora acessando o diretorio”
 sleep 5
 
-echo “[Assistente PowerTech]: Clonação com sucesso!”
+cd PowerTechSolutions-Documentacao
 sleep 5
 
 echo "[Assistente PowerTech]: Começando a primeira passo!"
