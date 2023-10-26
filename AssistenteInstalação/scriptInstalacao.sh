@@ -11,7 +11,7 @@ echo "[Assistente PowerTech]: Pacotes atualizados com sucesso!"
 sleep 5
 
 echo "[Assistente PowerTech]: Agora instalaremos uma interface de usuário chamada LXDE, a qual configura um servidor para permitir que você faça login remotamente no seu computador usando a Área de Trabalho Remota."
-sleep 5
+# sleep 5
 sudo apt install xrdp lxde-core lxde tigervnc-standalone-server -y
 sleep 2
 echo "[Assistente PowerTech]: Interface gráfica instalada com sucesso!"
