@@ -15,7 +15,7 @@ echo "[Assistente PowerTech]: Começando a primeira passo!"
 cd AssistenteInstalação
 sleep 5
 
-bash scriptInstalacao.sh
+scriptInstalacao.sh
 
 
 
