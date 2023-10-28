@@ -11,6 +11,8 @@ git clone https://github.com/PowerTechSolutions/PowerTechSolutions-Documentacao.
 echo "[Assistente PowerTech]: Clonação com sucesso! Agora acessando o diretorio"
 sleep 5
 
+cd PowerTechSolutions-Documentacao
+
 echo "[Assistente PowerTech]: Começando o primeiro passo!"
 sleep 5
 
