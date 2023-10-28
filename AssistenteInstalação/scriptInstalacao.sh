@@ -1,11 +1,7 @@
 #! /bin/bash
 
-echo "[Assistente PowerTech]: Olá, muito prazer! Eu sou a assitente virtual do PowerTech e vou te guiar para que você consiga ter acesso aos dados de máquina da sua EC2 por uma interface gráfica."
-
+echo "[Assistente PowerTech]: O primeiro passo é atualizar o sistema e todos os pacotes instalados."
 sleep 5
-
-echo "[Assistente PowerTech]: Para iniciar a visualização dos dados de máquina por meio da interface gráfica, o primeiro passo é atualizar o sistema e todos os pacotes instalados."
-# sleep 5
 sudo apt update && sudo apt upgrade -y
 
 sleep 2
@@ -58,5 +54,5 @@ read get
        
        then 
            
-           bash scriptInstalacaoV2.sh
+           scriptInstalacaoV2.sh
     fi
