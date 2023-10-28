@@ -21,12 +21,6 @@ echo "[Assistente PowerTech]: Interface gráfica instalada com sucesso!"
 
 sleep 5
 
-echo "[Assistente PowerTech]: Agora, você precisará adicionar uma senha para o seu usuário."
-sleep 5
-
-sudo addpw
-
-
 echo "[Assistente PowerTech]: No fim dessa primeira etapa, instalaremos a ferramenta >nmon< para que ela te ofereça informações detalhadas sobre o desempenho dos componentes da sua máquina."
 
 sleep 5
