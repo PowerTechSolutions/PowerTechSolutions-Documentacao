@@ -1,6 +1,6 @@
 #! /bin/bash
 
-echo "[Assistente PowerTech]: Boas vindas! O processo está quase sendo finalizado, sendo assim, o primeiro passo da segunda etapa é abrir a pasta >Desktop<."
+echo "[Assistente PowerTech]: O processo está quase sendo finalizado, sendo assim, o primeiro passo da segunda etapa é abrir a pasta >Desktop<."
 sleep 5
 cd Desktop
 echo "[Assistente PowerTech]: Pasta aberta com sucesso!"
