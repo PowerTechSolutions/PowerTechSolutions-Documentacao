@@ -53,5 +53,5 @@ read get
        
        then 
            
-           scriptInstalacaoV2.sh
+           bash scriptInstalacaoV2.sh
     fi
