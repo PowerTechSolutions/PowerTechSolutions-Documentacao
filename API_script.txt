@@ -1,0 +1,65 @@
+#!/bin/bash
+
+echo "[Assistente PowerTech]: Boas vindas! Vamos fazer a instalação do API na sua máquina."
+sleep 2
+sudo apt update && sudo apt upgrade -y
+sleep 5
+clear
+
+echo "[Assistente PowerTech]: Verificando a versão atual do Java..."
+java -version
+
+if [ $? = 0 ]; then
+  echo "[Assistente PowerTech]: Java instalado!"
+else
+  echo "[Assistente PowerTech]: Java não instalado. Deseja instalar o Java? [s/n]"
+
+  read get
+
+  if [ "$get" == "s" ]; then
+    sudo apt install openjdk-17-jre -y
+    echo "[Assistente PowerTech]: Java instalado!"
+  else
+    echo "[Assistente PowerTech]: Instalação do Java cancelada."
+    exit 1
+  fi
+fi
+
+sleep 5
+
+echo "[Assistente PowerTech]: Verificando a versão atual do Python..."
+python3 --version
+
+if [ $? = 0 ]; then
+  echo "[Assistente PowerTech]: Python instalado!"
+else
+  echo "[Assistente PowerTech]: Python não instalado. Deseja instalar o Python? [s/n]"
+
+  read get
+
+  if [ "$get" == "s" ]; then
+    sudo apt install python3 -y
+    echo "[Assistente PowerTech]: Python instalado!"
+  else
+    echo "[Assistente PowerTech]: Instalação do Python cancelada."
+    exit 1
+  fi
+fi
+
+sleep 5
+
+echo "[Assistente PowerTech]: Vamos começar a clonagem do repositório da sua API!"
+sleep 2
+
+# Check if the repository already exists
+if [ ! -d "API_Captura" ]; then
+  git clone https://github.com/PowerTechSolutions/API_Captura_Kaori.git
+else
+  echo "[Assistente PowerTech]: Repositório já clonado anteriormente."
+fi
+
+cd API_Captura_Kaori/indv_kaori
+sleep 2
+echo "[Assistente PowerTech]: Agora vamos executar sua API..."
+java -jar teste_indv_kaori-1.0-SNAPSHOT-jar-with-dependencies.jar
+
