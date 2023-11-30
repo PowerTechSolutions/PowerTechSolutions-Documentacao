@@ -55,6 +55,7 @@ sleep 2
 if [ ! -d "API_Captura" ]; then
   git clone https://github.com/PowerTechSolutions/API_Captura_Kaori.git
 else
+  git pull
   echo "[Assistente PowerTech]: Repositório já clonado anteriormente."
 fi
 
